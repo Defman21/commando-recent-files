@@ -38,7 +38,7 @@
     if results.length
       commando.renderResults results, uuid
 
-      onComplete()
+    onComplete()
 
   @onSelectResult = (selected) =>
     uris = []
