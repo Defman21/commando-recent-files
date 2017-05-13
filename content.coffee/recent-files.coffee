@@ -5,7 +5,6 @@
   parseURI = (uri) =>
     path: ko.uriparse.URIToPath uri
     basename: ko.uriparse.baseName uri
-    extension: ko.uriparse.ext uri
 
   @onSearch = (query, uuid, onComplete) =>
     log.debug "#{uuid} - Starting Scoped Search"
